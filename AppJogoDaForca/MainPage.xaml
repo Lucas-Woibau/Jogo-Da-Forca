@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJogoDaForca.MainPage"
+             >
+
+    <ScrollView>
+        <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
+            <Image
+                Source="forca1.png"
+                HeightRequest="200"
+                Margin="0, 20, 0, 0"
+                HorizontalOptions="Center"/>
+
+            <Label
+                Text="[Dica]"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="_ _ _ _ _ _ _"
+                FontSize="36"
+                HorizontalOptions="Center"/>
+
+            <VerticalStackLayout Spacing="3">
+                <HorizontalStackLayout Spacing="3" HorizontalOptions="Center">
+                    <Button Text="Q" HorizontalOptions="Center" />
+                    <Button Text="W" HorizontalOptions="Center" />
+                    <Button Text="E" HorizontalOptions="Center" />
+                    <Button Text="R" HorizontalOptions="Center" />
+                    <Button Text="T" HorizontalOptions="Center" />
+                    <Button Text="Y" HorizontalOptions="Center" />
+                    <Button Text="U" HorizontalOptions="Center" />
+                    <Button Text="I" HorizontalOptions="Center" />
+                    <Button Text="O" HorizontalOptions="Center" />
+                    <Button Text="P" HorizontalOptions="Center" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="3" HorizontalOptions="Center">
+                    <Button Text="A" HorizontalOptions="Center" />
+                    <Button Text="S" HorizontalOptions="Center" />
+                    <Button Text="D" HorizontalOptions="Center" />
+                    <Button Text="F" HorizontalOptions="Center" />
+                    <Button Text="G" HorizontalOptions="Center" />
+                    <Button Text="H" HorizontalOptions="Center" />
+                    <Button Text="J" HorizontalOptions="Center" />
+                    <Button Text="K" HorizontalOptions="Center" />
+                    <Button Text="L" HorizontalOptions="Center" />
+                    <Button Text="Ç" HorizontalOptions="Center" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="3" Margin="0, 0, 0, 10" HorizontalOptions="Center">
+                    <Button Text="Z" HorizontalOptions="Center" />
+                    <Button Text="X" HorizontalOptions="Center" />
+                    <Button Text="C" HorizontalOptions="Center" />
+                    <Button Text="V" HorizontalOptions="Center" />
+                    <Button Text="B" HorizontalOptions="Center" />
+                    <Button Text="N" HorizontalOptions="Center" />
+                    <Button Text="M" HorizontalOptions="Center" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>
